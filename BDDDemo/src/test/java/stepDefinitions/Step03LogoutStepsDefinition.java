@@ -17,7 +17,7 @@ public class Step03LogoutStepsDefinition {
 	
 	@Given("User has an item in the cart")
 	public void user_has_an_item_in_the_cart() {
-		WebElement shoppingCartNumber = driver.findElement(By.xpath("//div[normalize-space()=\"2\"]"));
+		WebElement shoppingCartNumber = driver.findElement(By.xpath("//div[normalize-space()=\"1\"]"));
 		Assert.assertTrue(shoppingCartNumber.isDisplayed());
 	}
 
